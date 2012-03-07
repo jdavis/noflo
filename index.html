@@ -13,19 +13,49 @@
     </header>
     <article>
       <div class="video">
-        <iframe width="399" height="203" src="http://www.youtube.com/embed/pgP4v9b5DvE" frameborder="0" allowfullscreen></iframe>
         <h2>Watch the video</h2>
+        <iframe width="260" height="162" src="http://www.youtube.com/embed/pgP4v9b5DvE" frameborder="0" allowfullscreen></iframe>
         <p>
         NoFlo presentation by Henri Bergius from <a href="http://wakanday.org/">JS.everywhere</a> in Boston, October 15th 2011
         </p>
         <ul>
           <li><a href="http://www.youtube.com/watch?v=pgP4v9b5DvE">YouTube</a></li>
           <li><a href="http://vimeo.com/33288036">Vimeo</a></li>
-          <li><a href="http://www.slideshare.net/bergie/noflo-flowbased-programming-for-nodejs">Slides</a></li>
+          <li><a href="http://www.slideshare.net/bergie/noflo-flowbased-programming-for-nodejs">SlideShare</a></li>
+        </ul>
       </div>
 
-      <div property="doap:description" class="editable">
-        <h2>What is NoFlo</h2>
+      <div class="intro" property="doap:description">
+        <p>NoFlo is a JavaScript implementation of <a href="http://en.wikipedia.org/wiki/Flow-based_programming">flow-based programming</a> (FBP), a way of separating the control flow of software from the actual software logic. It helps you to organize large applications, especially when importing and modifying large data sets.</p>
+
+        <p>FBP itself is not a new idea: it comes from a term IBM used in the 70s to define the concepts of more manageable business workflows. NoFlo, however, refreshes these concepts and brings them to <a href="http://nodejs.org/">Node.js</a> applications.</p>
+
+        <p>The MIT-licensed NoFlo library can either be used to run full flow-based applications or as a library for making complex workflows or asynchronous processes more manageable.</p>
+
+        <p>NoFlo has been written in <a href="http://jashkenas.github.com/coffee-script">CoffeeScript</a> for simplicity. The system is heavily inspired by <a href="http://www.jpaulmorrison.com/">J. Paul Morrison's</a> book <a href="http://www.jpaulmorrison.com/fbp/#More">Flow-Based Programming</a>.</p>
+      <div class="visual">
+        <h2>Understand and design software visually</h2>
+
+        <p>With NoFlo, your application consists of independent components that are connected together in a graph. This makes it possible to split your problem in logical areas that make sense, and to see how they connect with each other.
+        </p>
+
+        <p style="text-align: center;"><img src="img/noflo-webserver.png" alt="Web server in NoFlo" title="Web server running with NoFlo" /></p>
+
+        <p>NoFlo applications can be designed using the <a href="http://www.jpaulmorrison.com/cgi-bin/wiki.pl?DrawFBP">DrawFBP</a> tool, and visualized using the integrated web-based graph viewer.</p>
+      </div>
+
+      <div class="download">
+        <h2>Getting NoFlo</h2>
+
+        <p>NoFlo is available via NPM. Just run:</p>
+
+        <pre>$ npm install -g noflo</pre>
+
+        <p>You can also watch and participate in the development of <a href="https://github.com/bergie/noflo">NoFlo on GitHub</a>.
+      </div>
+
+      <div class="oop">
+        <h2>NoFlo and Flow-Based Programming</h2>
 
         <p>NoFlo is a simple <a href="http://en.wikipedia.org/wiki/Flow-based_programming">flow-based programming</a> implementation for <a href="http://nodejs.org/">Node.js</a>. From WikiPedia:</p>
 
@@ -44,15 +74,6 @@
         <blockquote>
           <p>I thought of objects being like biological cells and/or individual computers on a network, only able to communicate with messages (so messaging came at the very beginning -- it took a while to see how to do messaging in a programming language efficiently enough to be useful).</p>
         </blockquote>
-        
-        <p>NoFlo has been written in <a href="http://jashkenas.github.com/coffee-script">CoffeeScript</a> for simplicity. The system is heavily inspired by <a href="http://www.jpaulmorrison.com/">J. Paul Morrison's</a> book <a href="http://www.jpaulmorrison.com/fbp/#More">Flow-Based Programming</a>.</p>
-
-        <h2>Getting NoFlo</h2>
-
-        <p>NoFlo is available via NPM. Just run:</p>
-        <pre>
-$ npm install -g noflo
-        </pre>
       </div>
     </article>
     <footer prefix="foaf: http://xmlns.com/foaf/0.1/">
