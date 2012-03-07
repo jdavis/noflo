@@ -40,7 +40,7 @@ article {
     padding-right: 20%;
 }
 
-article .video {
+article .video, article .book {
     display: block;
     width: 260px;
     float: right;
@@ -51,22 +51,31 @@ article .video {
     background-color: #d3d7cf;
 }
 
-article .video h2 {
+article .video h2, article .book h2 {
     padding-top: 0px;
     margin-top: 0px;
 }
 
-article .video ul {
+article .video ul, article .book ul {
     margin-left: 0px;
     padding-left: 0px;
     margin-bottom: 0px;
     padding-bottom: 0px;
 }
 
-article .video ul li {
+article .video ul li, article .book ul li {
     display: inline;
     text-decoration: none;
     margin-right: 8px;
+}
+
+article .book {
+    margin-top: 1em;
+}
+
+article .book img {
+    margin-top: 0.2em;
+    border: none;
 }
 
 article h2, h3 {
