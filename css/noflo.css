@@ -3,10 +3,10 @@ body {
     padding: 0px;
     background-color: #eeeeec;
     color: #000000;
+    font-family: "Cantarell", "Helvetica", "Arial", sans-serif;
 }
 
 header {
-    font-family: "Cantarell", "Helvetica", "Arial", sans-serif;
     font-variant: small-caps;
     position: absolute;
     display: block;
@@ -84,7 +84,6 @@ article .book img {
 }
 
 article h2, h3 {
-    font-family: "Cantarell", "Helvetica", "Arial", sans-serif;
     font-variant: small-caps;
     margin-bottom: 0px;
     padding-bottom: 0.5em;
@@ -105,6 +104,7 @@ article p {
 
 article blockquote {
     font-style: italic;
+    font-family: "Georgia", serif;
     margin-top: 0px;
 }
 
@@ -118,6 +118,7 @@ footer {
     display: block;
     background-color: #eeeeec;
     bottom: 0px;
+    padding-top: 1em;
     padding-left: 20%;
     padding-right: 20%;
 }
